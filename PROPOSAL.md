@@ -17,8 +17,9 @@ Real-time single-character recognition.
 - Text formatter
 ![Image](https://user-images.githubusercontent.com/15201480/27545499-9218effe-5a55-11e7-8f02-e5bff71c01bc.png)
 ## RESTful API
-> Technology proposal: [Feathers](https://feathersjs.com)
-
+> Technology proposal:
+> [Feathers](https://feathersjs.com) -> REST API
+> [Micro](https://github.com/zeit/micro) -> Microservices
 
 Provides an entry point and access to the backend service. It must implement a [rate limit](http://nordicapis.com/stemming-the-flood-how-to-rate-limit-an-api/) to avoid flooding the API. It must do session handling to ensure the processed text is returned to the right client.
 
